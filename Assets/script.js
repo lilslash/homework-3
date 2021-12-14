@@ -51,6 +51,9 @@ const randomfun = {
   symbol: randomSymbol
 }
   /// conditions
+  if(pswdLength === 8){
+    alert("You must select at lease 8 type of characters to generate a password! Please start over.");
+}
 
 if (numConfirm == true) {
  numResults = String.fromCharCode(Math.floor(Math.random() * 10) + 48) 
